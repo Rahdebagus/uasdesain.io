@@ -1,0 +1,496 @@
+* {
+  font-family: sans-serif;
+}
+body {
+  background-color: #4f5152;
+}
+
+.section-padding {
+  padding: 100px 0;
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+}
+.carousel-caption {
+  z-index: 2;
+  bottom: 220px;
+}
+
+.carousel-caption h5 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+}
+.carousel-caption p {
+  font-size: 16px;
+  width: 60%;
+  margin: auto;
+  line-height: 1.9;
+  margin-bottom: 100px;
+}
+.carousel-inner::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.fortofolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fortofolio .card {
+  box-shadow: 30px 15px 15px 0px rgba(0, 0, 0, 0.18);
+}
+
+.fortofolio .card {
+  box-shadow: 30px 15px 15px 0px rgba(0, 0, 0, 0.18);
+}
+
+.fortofolio .card:hover {
+  box-shadow: 30px 15px 15px 0px rgba(0, 0, 0, 0.18);
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  transition: 0.3s;
+}
+.text:hover {
+  color: white;
+}
+
+figcaption {
+  align-items: center;
+  text-align: center;
+}
+
+figcaption:hover {
+  color: white;
+}
+
+.fortofolio:hover {
+  color: white;
+}
+
+.about-text {
+  margin-left: 100px;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.team .img-fluid {
+  border-radius: 500px;
+  height: 200px;
+  width: 200px;
+}
+
+.nav-item {
+  padding-left: 25px;
+}
+.collapse ul {
+  margin-right: 100px;
+}
+
+.foto {
+  width: 100%;
+  background: #232323;
+  height: 380px;
+}
+
+.img {
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  padding-top: 10px;
+}
+.wawasan {
+  color: white;
+}
+
+.judul {
+  color: white;
+  font-size: 50px;
+  padding-bottom: 50px;
+}
+.garis {
+  color: white;
+  height: 5px;
+}
+
+.judul-kunjungan {
+  color: white;
+  padding-bottom: 20px;
+}
+
+.star {
+}
+
+.star li {
+  display: inline-block;
+  align-items: center;
+}
+
+.copy {
+  color: white;
+  padding: 50px;
+}
+
+/* resvonsive */
+
+.navbar {
+  opacity: 0;
+  transform: translate(0, -100px);
+  transition: 1s ease all;
+}
+
+.navbar.aktif {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+/* map */
+.footer {
+  background-color: #4f5152;
+  padding: 30px 0;
+}
+
+.footer .container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.footer .box {
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+}
+
+.footer .box .left {
+  width: 40%;
+}
+
+.footer .box .left h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer .box .mid {
+  width: 25%;
+}
+
+.footer .box .mid .aksi {
+  margin-top: 80px;
+}
+.footer .box .mid a {
+  line-height: 30px;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5em;
+  display: block;
+}
+
+.footer .box .mid a::after {
+  display: block;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 2px;
+  margin: 10px auto;
+  content: '';
+}
+
+.footer .box .right {
+  width: 25%;
+}
+
+.footer .box .right h3 {
+  margin: 30px 0;
+  font-family: 'Dosis', sans-serif;
+  font-size: 2.5em;
+}
+.footer .box .right p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.footer .box .right .telp {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 100;
+  margin: 5px 0;
+}
+
+.footer .box .right .fax {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 100;
+  margin: 0 0 30px 0;
+}
+
+.footer .box .right h4 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5em;
+}
+
+.footer .box .right .jam {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 100;
+  padding: 5px 0 30px 0;
+}
+
+/* map */
+
+/* js */
+#carouselExampleCaptions {
+  opacity: 0;
+  transform: translate(-500px, 0);
+  transition: 2s ease all;
+}
+
+#carouselExampleCaptions.active {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.malem {
+  opacity: 0;
+  transform: translate(0, -100px);
+  transition: 2s ease all;
+}
+
+.malem.active {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.objek-judul {
+  opacity: 0;
+  transform: translate(0, -100px);
+  transition: 1s ease all;
+}
+
+.objek-judul.active {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.judul-sarana {
+  opacity: 0;
+  transform: translate(0, -100px);
+  transition: 1s ease all;
+}
+
+.judul-sarana.active {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.atas-kiri-sarana {
+  opacity: 0;
+  transform: translate(-100px, 0);
+  transition: 1s ease all;
+}
+
+.atas-kiri-sarana.active {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.atas-kanan-sarana {
+  opacity: 0;
+  transform: translate(100px, 0);
+  transition: 1s ease all;
+}
+
+.atas-kanan-sarana.active {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.bawah-kiri-sarana {
+  opacity: 0;
+  transform: translate(-100px, 0);
+  transition: 1s ease all;
+}
+
+.bawah-kiri-sarana.active {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.bawah-kanan-sarana {
+  opacity: 0;
+  transform: translate(100px, 0);
+  transition: 1s ease all;
+}
+
+.bawah-kanan-sarana.active {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.judul-kunjungan {
+  opacity: 0;
+  transform: translate(0, -100px);
+  transition: 1s ease all;
+}
+
+.judul-kunjungan.active {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.progress {
+  opacity: 0;
+  transform: translate(0, -100px);
+  transition: 1s ease all;
+}
+
+.progress.active {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.judul-wawasan {
+  opacity: 0;
+  transform: translate(0, -100px);
+  transition: 1s ease all;
+}
+
+.judul-wawasan.active {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.wawasan-kiri {
+  opacity: 0;
+  transform: translate(-100px, 0);
+  transition: 1s ease all;
+}
+
+.wawasan-kiri.active {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.wawasan-kanan {
+  opacity: 0;
+  transform: translate(100px, 0);
+  transition: 1s ease all;
+}
+
+.wawasan-kanan.active {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.aksi {
+  opacity: 0;
+  transform: translate(100px, 0);
+  transition: 1s ease all;
+}
+.aksi.aktif {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+/* 
+js akhir */
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {
+  opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content,
+#caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}

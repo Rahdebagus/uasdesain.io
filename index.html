@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="cssbot.css.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    
+    <!-- js -->
+    <script src="https://code.jquery.com/ui/1.13.0-rc.3/jquery-ui.min.js" integrity="sha256-R6eRO29lbCyPGfninb/kjIXeRjMOqY3VWPVk6gMhREk=" crossorigin="anonymous"></script>
+
+    <!-- js -->
+    <!-- bootcss -->
+
+    <link rel="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="jquery-ui-1.13.0.custom/jquery-ui.js"></script>
+    <script src="jquery-ui-1.13.0.custom/jquery-ui.css"></script>
+    <script src="https://code.jquery.com/ui/1.13.0-rc.3/jquery-ui.min.js" integrity="sha256-R6eRO29lbCyPGfninb/kjIXeRjMOqY3VWPVk6gMhREk=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"></script>
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"   >
+      <div class="container-fluid ">
+        <a class="navbar-brand ps-5" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Objek Wisata</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sarana Akomodasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Wawasan</a>
+            </li>
+            
+        </div>
+      </div>
+    </nav>
+    <!-- nav -->
+
+
+    <!-- carausel -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/car (2).jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsam delectus sunt quaerat illum ut!
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque rem eveniet dolorum laborum adipisci voluptatibus.
+            </p>
+            <div class="jelajahi" style="display: flex;  1px solid; width: 20%; margin: 0 auto;  ">
+            <p><a href="#" class="btn btn-warning mt-3" style="width: 80%;">Jelajahi </a></p>
+            <p><a href="#" class="btn btn-danger mt-3" style="width: 80%;">Video </a></p>
+          </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/car (1).jpg"  class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum in placeat necessitatibus accusantium nesciunt nulla 
+              ipsum magni ex veritatis itaque quibusdam expedita consequuntur officia quae unde, architecto dolor! Modi, harum..</p>
+              <div class="jelajahi" style="display: flex;  1px solid; width: 20%; margin: 0 auto;">
+                <p><a href="#" class="btn btn-warning mt-3">Jelajahi </a></p>
+                <p><a href="#" class="btn btn-danger mt-3">Jelajahi </a></p>
+              </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/car (3).jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum in placeat necessitatibus accusantium 
+              nesciunt nulla ipsum magni ex veritatis itaque quibusdam expedita consequuntur officia quae unde, architecto dolor! Modi, harum..</p>
+              <div class="jelajahi" style="display: flex;  1px solid; width: 20%; margin: 0 auto;">
+                <p><a href="#" class="btn btn-warning mt-3">Jelajahi </a></p>
+                <p><a href="#" class="btn btn-danger mt-3">Jelajahi </a></p>
+              </div>
+          </div>
+        </div>
+        
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- carausel --> 
+
+
+
+<!-- konten kosong  -->
+
+
+
+
+
+<!-- konten kosong  -->
+<section id="foto" class="foto mt-5   ">
+  <div class="gambar col-md-12  ">
+  <div class="col-md-12">
+    <img src=" " alt="" class="">
+  </div>
+  <div class="img  bg-transparent  ">
+    <div class="text text-center col-md-4">
+  <h3 class="malem">Cemagi</h3>
+  <p class="malem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam reiciendis, repellendus modi quam, 
+    adipisci eaque eveniet necessitatibus ut, sint aspernatur ipsam quis non illum! Maiores et nostrum accusamus numquam explicabo.</p>
+  <p class="malem"><a href="#" class="btn btn-warning mt-3">learn more </a></p>
+
+  </div>
+</div>
+
+</div>
+
+  </section>
+<!-- contenkosong -->
+
+<!-- cardslider -->
+
+<!-- cardslider -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- card --> 
+
+  <div class="objekwisata text-center mt-5" >
+    <h1 class="objek-judul">Objek Wisata</h1 >
+  </div>
+<section id="fortofolio" class="fortofolio mt-5 ps-5 pe-5 " style="border: none;">
+  <div class="row ">
+  <div class="col-12 col-md-12 col-lg-4    ">
+  <div class="card text-center  pb-2 "  style="width: 400px; height: auto; " >
+  <div class="card-body text-dark swiper-slide ">
+  <div class="img-area mb-5">
+    <img src="img/ga1.jpg" alt="" class="img-fluid"  style="height: 400px; width: 300px;">
+  </div>
+  <figcaption style=" margin-top: -40px;"> gianyar</figcaption>
+
+<div class="star">
+    <li><i class="fas fa-star" style="color: gold;"></i></li>
+    <li><i class="fas fa-star" style="color: gold;"></i></li>
+    <li><i class="fas fa-star" style="color: gold;"></i></li>
+    <li><i class="fas fa-star" style="color: gold;"></i></li>
+    <li><i class="fas fa-star" style="color: gold;"></i></li>
+</div>
+
+  <div class="text" style="">
+  <h3 class="card-title  mt-3">Cemagi</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam reiciendis, repellendus modi quam, 
+    </p>
+  </div>
+
+  <div class="d-grid gap-2 col-6 mx-auto">
+    <button class="btn btn-warning" type="button">Button</button>
+  </div>
+  <div class="d-grid gap-2 col-12 mt-3 mx-auto" >
+    <div class="icons d-flex justify-content-end">
+      <i class="bi bi-facebook me-3" style="font-size: 1.5em; "></i>
+      <i class="bi bi-instagram me-3" style="font-size: 1.5em;"></i>
+      <i class="bi bi-twitter me-3" style="font-size: 1.5em;"></i>
+    </div>
+  </div>
+
+  </div>
+  </div>
+  </div>
+  
+  <div class="col-12 col-md-12 col-lg-4    ">
+  <div class="card text-center  pb-2 swiper-slide "  style="width: 400px; height: auto; " >
+  <div class="card-body text-dark ">
+  <div class="img-area mb-5">
+    <img src="img/ga2.jpg" alt="" class="img-fluid"  style="height: 400px; width: 300px;">
+  </div>
+  <figcaption style="text-align: center; margin-top: -40px;"> klungkung</figcaption>
+  <div class="star">
+    
+      <li><i class="fas fa-star" style="color: gold;"></i></li>
+      <li><i class="fas fa-star" style="color: gold;"></i></li>
+      <li><i class="fas fa-star" style="color: gold;"></i></li>
+      <li><i class="fas fa-star" style="color: gold;"></i></li>
+      <li><i class="fas fa-star-half" style="color: gold;"></i></li>
+  
+  </div>
+  <div class="text" style="">
+  <h3 class="card-title  mt-3">Cemagi</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam reiciendis, repellendus modi quam, 
+    </p>
+  </div>
+
+  <div class="d-grid gap-2 col-6 mx-auto">
+    <button class="btn btn-warning" type="button">Button</button>
+  </div>
+  <div class="d-grid gap-2 col-12 mt-3 mx-auto" >
+    <div class="icons d-flex justify-content-end">
+      <i class="bi bi-facebook me-3" style="font-size: 1.5em; "></i>
+      <i class="bi bi-instagram me-3" style="font-size: 1.5em;"></i>
+      <i class="bi bi-twitter me-3" style="font-size: 1.5em;"></i>
+    </div>
+  </div>
+
+
+
+
+  </div>
+  </div>
+  </div>
+  
+  <div class="col-12 col-md-12 col-lg-4    ">
+  <div class="card text-center  pb-2  swiper-slide "  style="width: 400px; height: auto;  " >
+  <div class="card-body text-dark ">
+  <div class="img-area mb-5">
+    <img src="img/ga3.jpg" alt="" class="img-fluid"  style="height: 400px; width: 300px;">
+  </div>
+  <figcaption style="text-align: center; margin-top: -40px;"> balian</figcaption>
+  <div class="star">
+    
+    <li><i class="fas fa-star" style="color: gold;"></i></li>
+    <li><i class="fas fa-star" style="color: gold;"></i></li>
+    <li><i class="fas fa-star" style="color: gold;"></i></li>
+    <li><i class="fas fa-star" style="color: gold;"></i></li>
+    <li><i class="fas fa-star-half" style="color: gold;"></i></li>
+
+</div>
+
+
+  <div class="text" style="">
+  <h3 class="card-title  mt-3">Cemagi</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam reiciendis, repellendus modi quam, 
+    </p>
+  </div>
+
+  <div class="d-grid gap-2 col-6 mx-auto">
+    <button class="btn btn-warning" type="button">Button</button>
+  </div>
+  <div class="d-grid gap-2 col-12 mt-3 mx-auto" >
+    <div class="icons d-flex justify-content-end">
+      <i class="bi bi-facebook me-3" style="font-size: 1.5em; "></i>
+      <i class="bi bi-instagram me-3" style="font-size: 1.5em;"></i>
+      <i class="bi bi-twitter me-3" style="font-size: 1.5em;"></i>
+    </div>
+  </div>
+
+
+</div>
+</div>
+  </div >
+
+  </div>
+  
+  
+  
+</section>
+
+  <!-- card -->
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  <!-- abaut -->
+  <div class="sarana text-center mt-4" style="background-color:">
+    <h1 class="judul-sarana">sarana</h1>
+  </div>
+  <section id="about " class="about section-padding" style="background-color: #4f5152">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-6 col-md-6 col-12">
+          <div class="image atas-kiri-sarana">
+            <img id="myImg" src="img/car (2).jpg" alt="" class="img-fluid"  >
+          </div> 
+           </div>
+
+           <div id="myModal" class="modal">
+
+            <!-- The Close Button -->
+            <span class="close">&times;</span>
+          
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="img01">
+          
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+          </div>
+
+
+
+
+        <div class=" col-lg-6 col-md-6  mt-md-5" style="color: white;">
+          <div class="bungkus atas-kanan-sarana">
+          <div class="about-text">
+            <h2>Beautiful Screnery</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nulla ut id quaerat. 
+              Sapiente maxime reprehenderit impedit sit, corporis aperiam optio in modi. 
+              Provident quidem accusantium ab praesentium, sit obcaecati. Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Delectus ipsum doloribus quisquam aliquam, ducimus ab tempora. Deserunt,
+               nihil harum tempora, rerum blanditiis exercitationem, cumque ratione voluptates similique reiciendis mollitia autem.</p>
+               <div class="d-grid gap-2 col-12 mt-3 mx-auto" >
+                <p><a href="#" class="btn btn-warning mt-3">learn more </a></p>
+                <div class="icons d-flex justify-content-end">
+                  <i class="bi bi-facebook me-3" style="font-size: 1.5em; "></i>
+                  <i class="bi bi-instagram me-3" style="font-size: 1.5em;"></i>
+                  <i class="bi bi-twitter me-3" style="font-size: 1.5em;"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+           </div>
+           <br>
+         <div class="garis" style="color: white;">
+           <hr>
+           <hr>
+          </div>
+             
+          <div class=" col-lg-6 col-md-6  mt-5 mb-5" style="color: white;" >
+            <div class="bungkus bawah-kiri-sarana">
+              <div class="about-text ms-5">
+                <h2>Beautiful Screnery</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nulla ut id quaerat. 
+                  Sapiente maxime reprehenderit impedit sit, corporis aperiam optio in modi. 
+                  Provident quidem accusantium ab praesentium, sit obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Earum, suscipit quo officiis exercitationem voluptatibus recusandae praesentium aspernatur omnis laboriosam. 
+                  Asperiores, omnis quod magni harum ipsam sapiente! Unde sequi corporis exercitationem.</p>
+                  <p><a href="#" class="btn btn-warning mt-3">learn more </a></p>
+                  <div class="icons d-flex justify-content-end">
+                    <i class="bi bi-facebook me-3" style="font-size: 1.5em; "></i>
+                    <i class="bi bi-instagram me-3" style="font-size: 1.5em;"></i>
+                    <i class="bi bi-twitter me-3" style="font-size: 1.5em;"></i>
+                  </div>
+                </div>
+            </div>
+             </div>
+
+             <div class="col-lg-6 col-md-6 col-sm-12  mt-5 mb-5">
+              <div class="image bawah-kanan-sarana" >
+                <img id="mymg" src="img/car (3).jpg" alt="" class="img-fluid">
+              </div>
+               </div>
+
+               <div id="myModal" class="modal">
+
+                <!-- The Close Button -->
+                <span class="close">&times;</span>
+              
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content" id="img01">
+              
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption"></div>
+              </div>
+
+
+        </div>
+      </div>
+      <nav aria-label="...">
+        <ul class="pagination" style="display: flex; justify-content: center;">
+          <li class="page-item disabled">
+            <a class="page-link">Previous</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item active" aria-current="page">
+            <a class="page-link" href="#">2</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
+
+     
+    </section>
+    
+    <!-- abaut -->
+    
+    
+    
+    
+            
+            
+            
+          
+            
+           
+              
+              
+              
+        <!-- kunjungan -->
+        <section class="kunjungan bg-secondary mt-3 mb-5 bg-secondary" id="wawasan">
+          <div class="container">
+              <div class="judul-kunjungan text-center mt-5 mb-3">
+                  <h2 class="judul-kunjungan">Kunjungan wisatawan</h2>
+              </div>
+          
+              <div class="progress bg-dark " style="color: white;">
+                  <label class="ps-3 pe-3 ">Amerika</label>
+                  <div class="progress-bar bg-success " role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                </div>
+                <br>
+                <div class="progress bg-dark " style="color: white;">
+                  <label class="ps-3 pe-3">Australia</label>
+                  <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                </div>
+                <br>
+                <div class="progress bg-dark " style="color: white;">
+                  <label class="ps-3 pe-3">China</label>
+                  <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                </div>
+                <br>
+                <div class="progress bg-dark " style="color: white;">
+                  <label class="ps-3 pe-3">Eropa</label>
+                  <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                </div>
+          </div>
+         <!-- kunjungan -->
+            
+
+<!-- 
+wawasan -->
+<section class="section-wawasan" id="wawasan">
+  <div class="container">
+  <div class="judul text-center mb-4 mt-5">
+      <h2 class="judul-wawasan">Wawasan</h2>
+  </div>
+
+  <div class="row wawasan">
+      <div class="col-6 wawasan-kiri">
+        <div class="tittle">
+          <h2>SOuth Amerika</h2>
+        </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi dolor quam, animi inventore 
+            laudantium nobis fuga architecto voluptatum 
+            iusto sapiente ex eaque saepe quia? Reiciendis quaerat consectetur dolore corporis ab
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi dolor quam, animi inventore 
+            laudantium nobis fuga architecto voluptatum 
+            iusto sapiente ex eaque saepe quia? Reiciendis quaerat consectetur dolore corporis ab
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi dolor quam, animi inventore 
+            laudantium nobis fuga architecto voluptatum 
+            iusto sapiente ex eaque saepe quia? Reiciendis quaerat consectetur dolore corporis ab.</p>
+
+            <div class="btn btn-danger">learn more</div>
+            <div class="btn btn-warning">folow me</div>
+           
+      </div>
+
+   
+
+
+
+
+
+      <div class="col-6 wawasan-kanan" style="">
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="bawah">
+          <div class="carousel-inner" style="height: 500px; ">
+            <div class="carousel-item active">
+              <img src="img/ga2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" style="height: 500px;"> 
+              <img src="img/car (3).jpg" style="height: 500px;" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" style="height: 500px;">
+              <img src="img/ga3.jpg" class="d-block w-100" alt="...">
+            </div>
+
+
+           
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      </div>
+  </div>
+<div class="garis">
+  <hr>
+  <hr>
+</div>
+</section>
+</section>
+
+
+
+
+
+
+
+
+
+
+<!-- kunjungan -->
+<section >
+<div class="row"  style="background-color: #4f5152 ; color: white; "> 
+<div class="kunjungan">
+  <div class="col-sm-12 col-md-6" style="margin-left: 100px; padding-top: 20px;">
+    <div class="row ms-auto" >
+
+            <div id="ya" class="col-sm-12 col-md-6" >
+                <img src="img/ga1.jpg" style="width: 80%; height: 300px;">
+                  <p >gianyar</p >
+            </div>
+
+            <div class="col-sm-12 col-md-6">
+                <h2>Gianyar</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor odit eos eligendi ratione sunt expedita, provident suscipit quasi neque commodi quas voluptatem eius, laudantium necessitatibus placeat excepturi esse porro ut!
+                </p>
+
+                
+          </div>
+
+          <div class="col-sm-12 col-md-12 mb-3"  style="border-top: 1px solid #eaeaea; padding: 10px 5px;"></div>
+
+
+          <div class="col-sm-12 col-md-6">
+            <img src="img/ga2.jpg" style="width: 80%; height: 300px;">
+              <p>klungkung</p>
+        </div>
+
+        <div class="col-sm-12 col-md-6">
+            <h2>Klungkung</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor odit eos eligendi ratione sunt expedita, provident suscipit quasi neque commodi quas voluptatem eius, laudantium necessitatibus placeat excepturi esse porro ut!
+            </p>
+
+            
+      </div>
+
+      <div class="col-sm-12 col-md-12 mb-3"  style="border-top: 1px solid #eaeaea; padding: 10px 5px;"></div>
+
+      <div class="col-sm-12 col-md-6">
+        <img src="img/ga3.jpg" style="width: 80%; height: 300px;">
+          <p>balian</p>
+    </div>
+
+    <div class="col-sm-12 col-md-6">
+        <h2>Balian</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor odit eos eligendi ratione sunt expedita, provident suscipit quasi neque commodi quas voluptatem eius, laudantium necessitatibus placeat excepturi esse porro ut!
+        </p>
+
+        
+  </div>
+
+  <div class="col-sm-12 col-md-12 mb-3"  style="border-top: 1px solid #eaeaea; padding: 10px 5px;"></div>
+
+  <div class="col-sm-12 col-md-6">
+    <img src="img/car (3).jpg" style="width: 80%; height: 300px;">
+      <p>balangan</p>
+</div>
+
+
+<div class="col-sm-12 col-md-6">
+    <h2>Balangan</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor odit eos eligendi ratione sunt expedita, provident suscipit quasi neque commodi quas voluptatem eius, laudantium necessitatibus placeat excepturi esse porro ut!
+    </p>
+
+    
+</div>
+
+<div class="col-sm-12 col-md-12 mb-3"  style="border-top: 1px solid #eaeaea; padding: 10px 5px;"></div>
+
+
+<div class="col-sm-12 col-md-6">
+<img src="img/car (1).jpg" style="width: 80%; height: 300px;">
+  <p>broken beach</p>
+</div>
+
+<div class="col-sm-12 col-md-6">
+<h2>Broken Beach</h2>
+<p>
+  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor odit eos eligendi ratione sunt expedita, provident suscipit quasi neque commodi quas voluptatem eius, laudantium necessitatibus placeat excepturi esse porro ut!
+</p>
+
+
+</div>
+
+<div class="col-sm-12 col-md-12 mb-3"  style="border-top: 1px solid #eaeaea; padding: 10px 5px;"></div>
+
+     
+
+    </div>
+  </div>
+
+  
+
+</div>
+</div>
+
+</div>
+</section>
+<!-- kunjungan -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- map -->
+<section id="map" class="map">
+
+<div class="map text-center ">
+  <h1>maps</h1>
+</div>
+
+  <footer class="footer"  >
+		<div class="container">
+			<div class="box">
+				<div class="col-3 left">
+					<div class="judul" >
+						<h3=1>Peta Situs</h1>
+					</div>
+					<br>
+					<iframe src="<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d412508.1860578919!2d-115.45518692834202!3d36.124673764267634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80beb782a4f57dd1%3A0x3accd5e6d5b379a3!2sLas%20Vegas%2C%20Nevada%2C%20Amerika%20Serikat!5e0!3m2!1sid!2sid!4v1643353771592!5m2!1sid!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe></iframe>
+
+				</div>
+				<div class="col-3 mid">
+					<h3></h3>
+					<div class="aksi">
+					<a href="#home"> >  Home</a>
+					<br>
+					<a href="#about"> >  About</a>
+					<br>
+					<a href="#sarana"> >  Sarana & Akomodasi</a>
+					<br>
+					<a href="#wawasan"> >  Wawasan</a>
+					<br>
+				</div>
+				</div>
+
+
+				<div class="col-3 right">
+          
+					<div class="judul1" >
+						<span></span>
+					</div>
+						<h3>Las Vegas</h3>
+							<P>Las Vegas,<br> Amerika
+							</P>
+							<P class="telp">Telp : +62 361 952952</P>
+							<P class="fax">Telp : +62 361 953005</P>
+							<h4>Jam Operasional:</h4>
+							<P class="jam">Setiap hari pukukl 9.00 - 17.00</P>
+							<div class="d-grid gap-2 col-9 mx-auto">
+                <button class="btn btn-primary" type="button"><i class="bi bi-envelope-fill"></i> Hubungi Kami</button>
+                <button class="btn btn-success" type="button"><i class="bi bi-arrow-90deg-right"></i> Route Maps</button>
+              </div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</section>
+
+
+
+
+<!-- map -->
+
+
+
+
+
+
+
+
+
+
+
+   
+            <!-- login -->
+            <section class="contact mt-5" id="contact section-padding">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="section-header">
+                      <h2>
+                        contatc us
+                      </h2>
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis, officiis?</p>
+                    </div>
+                  </div>
+            
+                  <div class="row m-0">
+                    <div class="col-md-12 p-0 pt-4 m-auto">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="mb-3">
+                            <input type="text" class="form-control" required placeholder="name">
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="mb-3">
+                            <input type="text" class="form-control" required placeholder="email">
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="mb-3">
+                            <input type="text" class="form-control" required placeholder="password">
+                          </div>
+                          <textarea rows="3" class="form-control"  required placeholder= "comment"> </textarea>
+                        </div>
+                      </div>
+                      <div class="button">
+                        <button type="button" class="btn btn-warning">Submite</button>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>  
+              
+            <!-- login -->
+              
+
+
+
+
+
+
+
+  
+    <!-- team -->
+    <section id="team" class="team mt-5 ps-5 pe-5 bg-dark" >  
+      
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3    ">
+          <div class="card text-center bg-dark" style="width: 250px; border:none;">
+            <div class="card-body text-light">
+              <div class="img-area mb-4">
+                <img src="img/bilgate.jpg" alt="" class="img-fluid ">
+              </div>
+              <h4 class="card-title">bill gate</h4>
+              <p class="text team">Lorem ipsum dolor sit amet, consectetur adipisicing elit.  </p>
+                <p class="socials">
+                  <i class="bi bi-google"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+        <div class="col-12 col-md-6 col-lg-3    ">
+          <div class="card text-center bg-dark" style="width: 250px; border:none;">
+            <div class="card-body text-light">
+              <div class="img-area mb-4">
+                <img src="img/albert.jpg" alt="" class="img-fluid ">
+              </div>
+              <h4 class="card-title">albert</h4>
+              <p class="text team">Lorem ipsum dolor sit amet, consectetur adipisicing elit.  </p>
+                <p class="socials">
+                  <i class="bi bi-google"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+        <div class="col-12 col-md-6 col-lg-3    ">
+          <div class="card text-center bg-dark" style="width: 250px; border:none;">
+            <div class="card-body text-light">
+              <div class="img-area mb-4">
+                <img src="img/tesla.jpeg" alt="" class="img-fluid ">
+              </div>
+              <h4 class="card-title">Nikola tesla</h4>
+              <p class="text team">Lorem ipsum dolor sit amet, consectetur adipisicing elit.  </p>
+                <p class="socials">
+                  <i class="bi bi-google"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+        <div class="col-12 col-md-6 col-lg-3    ">
+          <div class="card text-center bg-dark" style="width: 250px; border:none;">
+            <div class="card-body text-light">
+              <div class="img-area mb-4">
+                <img src="img/thomas.jpg" alt="" class="img-fluid ">
+              </div>
+              <h4 class="card-title">thomas</h4>
+              <p class="text team">Lorem ipsum dolor sit amet, consectetur adipisicing elit.  </p>
+                <p class="socials">
+                  <i class="bi bi-google"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#273036" fill-opacity="1" d="M0,64L48,85.3C96,107,192,149,288,165.3C384,181,480,171,576,154.7C672,139,768,117,864,117.3C960,117,1056,139,1152,154.7C1248,171,1344,181,1392,186.7L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+     
+
+
+<p style="text-align: center;">copy right by i gusti made ngurah bagus dwika winanda</p>
+
+
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#273036" fill-opacity="1" d="M0,64L48,85.3C96,107,192,149,288,165.3C384,181,480,171,576,154.7C672,139,768,117,864,117.3C960,117,1056,139,1152,154.7C1248,171,1344,181,1392,186.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+
+         
+            
+            
+            
+            <!-- team -->
+
+
+
+
+
+
+
+
+            
+            
+            
+            
+          <script src="main.js"></script>
+            <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js
+"
+      integrity="sha384-
+7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-
+QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <!-- jsboot -->
+  </body>
+</html>
